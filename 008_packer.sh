@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-
+echo "not needed"
+exit 0;
 PROJECT_DIR=`pwd`
 #LOGFILE=$PROJECT_DIR/008_packer.log
 #exec >> $LOGFILE 2>&1
