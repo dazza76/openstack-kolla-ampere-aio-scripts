@@ -4,7 +4,7 @@ PROJECT_DIR=`pwd`
 LOGFILE=$PROJECT_DIR/001_centos_enable_docker_and_virtualization.log
 exec >> $LOGFILE 2>&1
 
-TOOLS="screen rsync git curl byobu nano"
+TOOLS="screen rsync git curl byobu nano tmux"
 DOCKER="docker-ce docker-ce-cli containerd.io"
 PYTHON3="platform-python-devel python3-libselinux python3 python3-pip python3-setuptools python3-virtualenv"
 DEVEL="libffi-devel gcc openssl-devel"
