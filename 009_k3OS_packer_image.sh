@@ -16,5 +16,5 @@ echo $OS_FLOATING_IP
 cd /opt
 git clone https://github.com/rancher/k3os
 cd /opt/k3os/package/packer/openstack
-packer validate template-arm64.json
-packer build template-arm64.json
+packer validate template-amd64.json
+packer build template-amd64.json
